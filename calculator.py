@@ -44,6 +44,6 @@ def main():
 if __name__ == "__main__":
     main()
 
-print("thanks a lot")
+print("thanks a lot bruh <3")
 
 
