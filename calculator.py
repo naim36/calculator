@@ -92,8 +92,9 @@ class Calculator(QMainWindow):
 
 
 if __name__ == "__main__":
-    main()
-
-print("thanks a lot bruh <3")
-
-
+    app = QApplication(sys.argv)
+    calculator = Calculator()
+    calculator.show()
+    sys.exit(app.exec())
+    
+    
